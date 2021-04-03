@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#e6ffff
+}
+
+#title{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+
+
+    #carouselExampleSlidesOnly{
+        margin-top: 10px;
+    }
+
+.form-group{
+    margin-right: 90px;
+   
+}  
+
+#contact{
+font-size: large;
+font-weight: bolder;
+}
+
+#contact-title{
+    color: gray;
+}

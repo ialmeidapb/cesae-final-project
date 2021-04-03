@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- MEU CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">        
+    <!--FONTE-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <title>Final Project - Igor Oliveira de Almeida</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            CESAE Private Aviation
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="frota.html">Frota</a>
+            <a class="nav-link active" href="reservas.html">Reservas<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="contato.html">Fale Conosco</a>
+          </div>
+        </div>
+      </nav>
+   
+   <main>
+    <h1 id="title" class="container mt-5 mb-5" >Reserve o seu voo</h1>
+    <h5 class="container mb-5 text-center">Entraremos em contato consigo brevemente, com a melhor solução em uma de nossas Aeronaves.</h5>
+    <form class="container">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputName">Nome/Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Insira o seu nome">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">Aeroporto de partida / Departure Airport</label>
+          <select id="inputState" class="form-control">
+            <option selected>Lisboa</option>
+            <option>Porto</option>
+            <option>Faro</option>
+            <option>Ponta Delgada</option>
+            <option>Outros</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputDestination">Destino / Destination</label>
+        <input type="text" class="form-control" id="inputDestination" placeholder="Insira a cidade e país de destino">
+      </div>
+      <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Insira o seu email">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputtel">Telefone / Phone</label>
+          <input type="tel" class="form-control" id="inputtel" placeholder="(000) 111-222-333">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputPurpose">Proposito da Viagem / Trip Purpose</label>
+          <select id="inputPurpose" class="form-control">
+            <option selected>Negócios/Business</option>
+            <option>Lazer / Vacation</option>
+            <option>Transporte Aeromédico / Medical Transportation</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Contato somente por email / Contact me only by email.
+          </label>
+        </div>
+      </div>
+      <button type="reset" class="btn btn-danger mt-4">Limpar</button>
+      <button type="submit" class="btn btn-primary mt-4">Submeter</button>
+    </form>
+
+   </main>
+
+   <footer class="mt-5 text-center">
+    <small>&copy; 2021 Igor Almeida</small>
+
+   <script src="js/main.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
